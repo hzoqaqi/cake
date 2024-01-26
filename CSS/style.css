@@ -1,11 +1,11 @@
 :root{
-    --primary-color: #6895D2;
-    --secondary-color: #FDE767;
+    --primary-color: #402B3A;
+    --secondary-color: #FF9BD2;
     --light-color: #f3f3f3;
     --dark-color: #333;
     --max-width: 1800px;
-    --third-color: #F3B95F;
-    --forth-color: #D04848;
+    --third-color: #F8F4EC;
+    --forth-color: #D63484;
 }
 
 *{
@@ -178,3 +178,4 @@ h1, h2, h3, h4, h5, h6 {
   #showcase .showcase-content a {
     font-size: 2rem;
   }
+
