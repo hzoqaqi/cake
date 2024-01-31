@@ -554,10 +554,12 @@ h1, h2, h3, h4, h5, h6 {
         height: 50px;
         width: 500px;
         font-size: 1.5rem;
+        padding: 0 10px;
       }
 
       #contact .contact-content .form-contact textarea {
         font-size: 1.5rem;
+        padding: 10px 10px;
       }
 
       #contact .contact-content .form-contact button {
@@ -575,9 +577,97 @@ h1, h2, h3, h4, h5, h6 {
         color: var(--forth-color);
         font-style: italic;
       }
+
+      /* subscribe */
     
+      #subscribe {
+        color: #fff;
+        background: #ebe5e5;
+        padding: 2rem;
+        position: relative;
+      }
+      
+      #subscribe:before {
+        content: '';
+        background: url('../img/subscribe.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+      }
+      
+      #subscribe .subscribe-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 10px;
+      }
+
+      #subscribe .subscribe-content {
+        z-index: 1;
+        color: black;
+        border: 5px solid #333;
+        border-radius: 15px;
+        padding: 20px;
+        background-color: var(--third-color);
+        
+      }
+
+      #subscribe .subscribe-content > * {
+        margin: 20px 0;
+      }
+
+      #subscribe .subscribe-content input {
+        height: 50px;
+        width: 70%;
+        font-size: 1.5rem;
+        padding: 0 10px;
+      }
+
+      #subscribe .subscribe-content .sex,
+      #subscribe .subscribe-content .marriage {
+        height: 20px;
+        width: 10%;
+      }
+
+      #subscribe .subscribe-content button {
+      display: inline-block;
+      border: none;
+      background: var(--primary-color);
+      color: #fff;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 2rem;
+      }
+
+      #subscribe .subscribe-content button:hover {
+        background: #fff;
+        color: var(--primary-color);
+        font-style: italic;
+      }
+
+      #subscribe .subscribe-content p {
+        text-align: center;
+      }
+
+      #subscribe .subscribe-content p a {
+        color: var(--secondary-color);
+      }
+
+      #subscribe .subscribe-content p a:hover {
+        color: var(--forth-color);
+        font-style: italic;
+      }
+
+      
 
 
+
+      
 
   
  
