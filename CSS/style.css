@@ -663,6 +663,39 @@ h1, h2, h3, h4, h5, h6 {
         font-style: italic;
       }
 
+      /* order */
+
+      #order .order-content h1{
+        color: var(--primary-color);
+        text-align: center;
+        font-size: 6rem;
+        animation-name: work;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }
+  
+      @keyframes work {
+        20%   {color: var(--forth-color);}
+        50%  {color: rgb(136, 73, 14);}
+        80%  {color: var(--secondary-color);}
+        100% {color: var(--primary-color);}
+      }
+  
+      #order .order-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+      }
+  
+      #order .order-content {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        z-index: 1;
+      }
+
       
 
 
