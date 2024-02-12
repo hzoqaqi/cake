@@ -24,6 +24,7 @@
   }
 
    #main-nav ul {
+    flex-shrink: 1;
     justify-content: center;
     align-items: center;
    }
@@ -54,7 +55,7 @@
   }
   
   
-  @media(max-width: 1000px) {
+  @media(max-width: 1024px) {
     /* Stack Grid Items */
     #showcase .showcase-container,
     #home-articles .articles-container, #products-articles .cake-container,
@@ -195,7 +196,7 @@
 
 }
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
     #contact .contact-container .form-contact h3, 
     #contact .contact-container h1 {
         font-size: 2rem;
